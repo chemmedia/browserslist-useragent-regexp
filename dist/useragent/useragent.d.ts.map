@@ -1,0 +1,1 @@
+{"version":3,"file":"useragent.d.ts","sourceRoot":"","sources":["../../src/useragent/useragent.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,oBAAoB,EAAE,MAAM,oBAAoB,CAAA;AAC9D,OAAO,KAAK,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAA;AAC5D,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,YAAY,CAAA;AAK9C;;;;;;GAMG;AACH,wBAAgB,qBAAqB,CAAC,QAAQ,EAAE,gBAAgB,EAAE,OAAO,EAAE,oBAAoB,EAAE,aAAa,6CAAU,kBA6CvH"}

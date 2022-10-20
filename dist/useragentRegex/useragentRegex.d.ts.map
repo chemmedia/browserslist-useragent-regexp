@@ -1,0 +1,1 @@
+{"version":3,"file":"useragentRegex.d.ts","sourceRoot":"","sources":["../../src/useragentRegex/useragentRegex.ts"],"names":[],"mappings":"AAUA,OAAO,KAAK,EAAE,qBAAqB,EAAE,MAAM,YAAY,CAAA;AAGvD,eAAO,MAAM,cAAc;;;;;CAK1B,CAAA;AAED;;;;GAIG;AACH,wBAAgB,mBAAmB,CAAC,OAAO,GAAE,qBAA0B,2DAuBtE;AAED;;;;GAIG;AACH,wBAAgB,iBAAiB,CAAC,OAAO,GAAE,qBAA0B,UAMpE"}
