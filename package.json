@@ -1,6 +1,5 @@
 {
   "name": "browserslist-useragent-regexp",
-  "type": "module",
   "version": "4.0.0-beta.0",
   "description": "A utility to compile browserslist query to a RegExp to test browser useragent.",
   "author": "dangreen",
@@ -20,11 +19,12 @@
   "engines": {
     "node": ">=14.0.0"
   },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "bin": {
     "browserslist-useragent-regexp": "./dist/cli.js",
     "bluare": "./dist/cli.js"
   },
-  "exports": "./src/index.ts",
   "publishConfig": {
     "types": "./dist/index.d.ts",
     "exports": {
@@ -63,7 +63,7 @@
     "argue-cli": "^2.1.0",
     "easy-table": "^1.1.1",
     "picocolors": "^1.0.0",
-    "ua-regexes-lite": "^1.1.1"
+    "ua-regexes-lite": "github:chemmedia/ua-regexes-lite"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",

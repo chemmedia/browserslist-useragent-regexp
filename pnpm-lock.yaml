@@ -31,7 +31,7 @@ specifiers:
   standard-version: ^9.5.0
   typedoc: ^0.23.16
   typescript: ^4.8.4
-  ua-regexes-lite: ^1.1.1
+  ua-regexes-lite: github:chemmedia/ua-regexes-lite
   vite: ^3.1.7
   vitest: ^0.24.1
 
@@ -39,7 +39,7 @@ dependencies:
   argue-cli: 2.1.0
   easy-table: 1.2.0
   picocolors: 1.0.0
-  ua-regexes-lite: 1.1.1
+  ua-regexes-lite: github.com/chemmedia/ua-regexes-lite/20a18f03bc63e49026f15bf3124f44af281d26e3
 
 devDependencies:
   '@commitlint/cli': 17.1.2_@swc+core@1.3.6
@@ -4903,11 +4903,6 @@ packages:
     hasBin: true
     dev: true
 
-  /ua-regexes-lite/1.1.1:
-    resolution: {integrity: sha512-XzJmfjKYqbUfMwfdfKAWvHrba3nLQ4UmPboP7Xja2YB0TMbbXc6RCWKzFTkRVeyG4spRMkS3BGqbWLhJPVE/EQ==}
-    engines: {node: '>=14'}
-    dev: false
-
   /uglify-js/3.17.3:
     resolution: {integrity: sha512-JmMFDME3iufZnBpyKL+uS78LRiC+mK55zWfM5f/pWBJfpOttXAqYfdDGRukYhJuyRinvPVAtUhvy7rlDybNtFg==}
     engines: {node: '>=0.8.0'}
@@ -5183,5 +5178,12 @@ packages:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
     dev: true
+
+  github.com/chemmedia/ua-regexes-lite/20a18f03bc63e49026f15bf3124f44af281d26e3:
+    resolution: {tarball: https://codeload.github.com/chemmedia/ua-regexes-lite/tar.gz/20a18f03bc63e49026f15bf3124f44af281d26e3}
+    name: ua-regexes-lite
+    version: 1.1.2
+    engines: {node: '>=14'}
+    dev: false
 
 publishDirectory: package

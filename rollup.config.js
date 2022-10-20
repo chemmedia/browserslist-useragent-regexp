@@ -29,12 +29,13 @@ const plugins = targets => [
 
 export default [
   {
-    input: pkg.exports,
+    input: 'src/index.ts',
     plugins: plugins(nodeEsm.join(', ')),
     external,
     output: {
       file: pkg.publishConfig.exports.import,
-      format: 'es',
+      format: 'cjs',
+      exports: 'named',
       sourcemap: true
     }
   },
